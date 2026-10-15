@@ -1,0 +1,16 @@
+/* Legacy Fitness Studio - breakpoints (loaded after style.css) */
+@media(max-width:1000px){.links{gap:16px}.links a:not(.btn){font-size:13px}.zones{grid-template-columns:1fr 1fr}.zone:nth-child(3n){border-right:1px solid var(--ln)}.zone:nth-child(2n){border-right:0}.zone:nth-child(3n+1){padding-left:26px}.zone:nth-child(2n+1){padding-left:0}}
+@media(max-width:960px){
+.burger{display:block}.brand b{font-size:18px}
+.links{position:fixed;inset:76px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 24px;border-bottom:1px solid var(--ln);transform:translateY(-12px);opacity:0;visibility:hidden;transition:.25s}
+.links.open{transform:none;opacity:1;visibility:visible}
+.links a:not(.btn){padding:16px 0;border-bottom:1px solid var(--ln);font-size:16px}.links .btn{margin-top:18px;min-height:52px}
+.hero{grid-template-columns:1fr;max-height:none;min-height:0}.hero-t{padding:44px 20px 40px}
+.hero-i{height:min(62vw,380px)}.hero-i::before{left:20px;bottom:-14px;width:64px;height:64px}
+.about,.mem-g,.svc{grid-template-columns:1fr}.about figure{order:-1;max-width:420px}
+.grid{grid-template-columns:1fr 1fr}.grid button,.grid button:nth-child(n){grid-column:auto;grid-row:auto;min-height:200px}.grid button:nth-child(1){grid-column:span 2;min-height:260px}
+.cg{grid-template-columns:1fr 1fr}}
+@media(max-width:540px){body{font-size:16px}.brand b span{display:none}.brand img{height:44px}.cta .btn{flex:1 1 100%}
+.row{grid-template-columns:1fr}.cg{grid-template-columns:1fr}.zones{grid-template-columns:1fr}.zone{padding-left:0!important;border-right:0!important}
+.grid button:nth-child(1){min-height:220px}.grid button:nth-child(n){min-height:170px}.strip ul{font-size:15px;gap:8px 22px}}
+@media(max-width:360px){.brand b{font-size:15px}.wrap{width:calc(100% - 28px)}.grid{grid-template-columns:1fr}.grid button:nth-child(n){grid-column:auto;min-height:190px}}
