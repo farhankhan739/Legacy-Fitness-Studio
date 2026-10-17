@@ -10,7 +10,7 @@
 .about,.mem-g,.svc{grid-template-columns:1fr}.about figure{order:-1;max-width:420px}
 .grid{grid-template-columns:1fr 1fr}.grid button,.grid button:nth-child(n){grid-column:auto;grid-row:auto;min-height:200px}.grid button:nth-child(1){grid-column:span 2;min-height:260px}
 .cg{grid-template-columns:1fr 1fr}}
-@media(max-width:540px){body{font-size:16px}.brand b span{display:none}.brand img{height:44px}.cta .btn{flex:1 1 100%}
+@media(max-width:540px){body{font-size:16px}.brand b span{display:block}.brand img{height:44px}.cta .btn{flex:1 1 100%}
 .row{grid-template-columns:1fr}.cg{grid-template-columns:1fr}.zones{grid-template-columns:1fr}.zone{padding-left:0!important;border-right:0!important}
 .grid button:nth-child(1){min-height:220px}.grid button:nth-child(n){min-height:170px}.strip ul{font-size:15px;gap:8px 22px}}
 @media(max-width:360px){.brand b{font-size:15px}.wrap{width:calc(100% - 28px)}.grid{grid-template-columns:1fr}.grid button:nth-child(n){grid-column:auto;min-height:190px}}
